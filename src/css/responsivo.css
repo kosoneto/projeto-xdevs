@@ -1,0 +1,26 @@
+/* Media query para dispositivos com largura máxima de 620px */
+@media (max-width: 620px) {
+
+    /* Estilos para o cabeçalho */
+    .cabecalho {
+        padding: 30px 0; /* Ajusta o espaçamento superior e inferior do cabeçalho */
+    }
+
+    /* Estilos para o contêiner do slider de personagens */
+    .personagens-slider {
+        padding: 0 15px; /* Ajusta o espaçamento interno nas laterais do slider */
+        gap: 10px; /* Reduz o espaçamento entre os itens dentro do slider */
+    }
+
+    /* Estilos para os botões de seta */
+    .btn-seta {
+        width: 20px; /* Define a largura dos botões de seta */
+        height: 20px; /* Define a altura dos botões de seta */
+        padding: 20px; /* Adiciona espaçamento interno aos botões de seta */
+    }
+
+    /* Estilos para a lista de personagens */
+    .lista-personagens {
+        height: 480px; /* Ajusta a altura do contêiner da lista de personagens */
+    }
+}

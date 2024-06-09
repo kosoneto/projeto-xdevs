@@ -1,0 +1,11 @@
+* {
+    margin: 0; /* Remove o espaçamento externo padrão de todos os elementos */
+    padding: 0; /* Remove o espaçamento interno padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui o padding e a borda na largura e altura total dos elementos */
+}
+
+ul {
+    list-style: none; /* Remove os marcadores de lista (bolinhas, números, etc.) de todos os elementos <ul> */
+}
+
+/* Esses estilos globais ajudam a criar uma base consistente para o layout, removendo os espaçamentos padrão que os navegadores aplicam e controlando como as dimensões dos elementos são calculadas.*/
